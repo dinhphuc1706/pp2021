@@ -85,7 +85,8 @@ def FileWriter():
     zipObj.write('Mark.txt')
     zipObj.close()
     
-    #Decompress
+#Decompress
+def FileDecompresser():    
     try:
         f = open("students.dat")
         with ZipFile('students.dat', 'r') as zipObj:

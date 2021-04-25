@@ -23,4 +23,5 @@ for i in range(RecordCount):
     setMark()
 PrintMarkList()
 getAverageMark()
-
+FileWriter()
+FileDecompresser()
